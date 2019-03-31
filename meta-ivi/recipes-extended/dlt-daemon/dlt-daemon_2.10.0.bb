@@ -24,7 +24,7 @@ DEPENDS = "zlib"
 SRCREV = "8b48e73f79b4463393916e4c6696917e3dedd026"
 PR = "r0"
 
-SRC_URI = "git://git.projects.genivi.org/${PN}.git \
+SRC_URI = "git://github.com/GENIVI/${PN}.git \
            file://modify_systemd_config_dir.patch \
            file://0001-Fix-build-with-systemd-209.patch \
           "
