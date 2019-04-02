@@ -9,7 +9,7 @@ PR = "r8"
 
 DEPENDS = "common-api-c++-dbus dlt-daemon sqlite3 dbus"
 
-SRC_URI = "git://git.projects.genivi.org/AudioManager.git;protocol=git;tag=67fd28399796590125e98fc589499e41e3026393 \
+SRC_URI = "git://github.com/GENIVI/AudioManager.git;protocol=git;tag=67fd28399796590125e98fc589499e41e3026393 \
            file://AudioManager.service file://setup_amgr.sh"
 
 S = "${WORKDIR}/git"
